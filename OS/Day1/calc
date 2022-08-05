@@ -1,0 +1,19 @@
+#! /usr/bin/bash 
+# commandline calculator 
+if [ $# -eq 0 ]; then
+    echo 'Syntex is ';
+    echo '1>  ./calc [option] value1 value2';
+    echo '2>  sh calc [option] value1 value2'    ;
+    echo 'options are add sub mul div ';
+elif [ "$1" == 'add' ]; then
+    echo $(( $2 + $3 ));
+elif [ "$1" == 'sub' ]; then
+    echo $(( $2 - $3 ));
+elif [ "$1" == mul ]; then
+    echo $(( $2 * $3 ));
+elif [ "$1" == div ]; then
+    echo $(( $2 / $3 ));
+else 
+    echo 'please enter a valid option';
+    echo 'options are add sub mul div ';
+fi
