@@ -1,8 +1,8 @@
 #/usr/bin/bash
 # Program to check whether a number is prime or not 
 
-echo -n "Enter a number : "
-read b
+ 
+read -p "Enter a number : " b
 for (( i=2; i<b; i++ ))
 do
 if (( b%i == 0 ));then

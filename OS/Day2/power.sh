@@ -1,7 +1,6 @@
-echo -n "Enter a number : "
-read b
-echo -n "Enter the power : "
-read p
+#! /usr/bin/bash
+read -p "Enter a number : " b
+read -p "Enter the power : " p
 r=1
 for i in $( seq $p);do 
 r=$(( r*b ))

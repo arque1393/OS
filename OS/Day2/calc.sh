@@ -1,7 +1,5 @@
-echo -n "enter a number : "
-read b
-echo -n "enter second number : "
-read a
+read -p "enter a number : " b
+read -p "enter second number : " a
 printf "1) Add \n2) Sub \n3)Mul \n4)Div\nEnter ypou choice :" 
 read c
 echo -n "Result :"
