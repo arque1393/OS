@@ -89,7 +89,7 @@ int main()
     Process P[13];
     int N = 13;
     // random_process_generator(P, N);
-    char filename[] = "/run/media/aritrarc/96532fef-218c-4ef7-826c-09b7d7c85016/home/aritrarc/OS/ProcessInfo.txt";
+    char filename[] = "/run/media/aritrarc/96532fef-218c-4ef7-826c-09b7d7c85016/home/aritrarc/OS/OS/Day5/ProcessInfo.txt";
     // write_process(P, N, filename); // return 1 If Writing become successfull
     read_process(P, N, filename);
     printProcess(P, N);
